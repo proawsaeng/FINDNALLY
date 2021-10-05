@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/TitleScene.unity
+    guid: 07aed5f6baee3df4f8ae4cfa57007a21
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/CaseScene.unity
+    guid: 510150fd1080970418baae54c27f4bd6
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/DttHomeScene.unity
+    guid: ef142568a4b8eec45bb22f2e2a91e9e2
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/CollectionScene.unity
+    guid: 7d5751691938c8c49be6c3dc6c58da81
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/Cases/01Case_Kitchen.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/Cases/02Case_Livingroom.unity
+    guid: a6b6e1b1198e1a649bb0a3768e742ec6
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/Cases/03Case_Bedroom.unity
+    guid: 22d70820014cfa247bf9d657afb51378
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/Cases/04Special_Birds.unity
+    guid: 97caf9bd725e84043bcedbfdbe6417d8
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/Cases/05Case_Bathroom.unity
+    guid: 2c27381e990433c40b7c72b7c523bad7
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/Cases/06Case_Space.unity
+    guid: d7f1cda49de82a7499d1289de2296b86
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/Cases/07Special_Birds.unity
+    guid: bae199b0a701047419320a0cf63fadd5
+  m_configObjects: {}
