@@ -20,29 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f81d9e8-af49-4614-a78f-a18c4aa76202" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/CollectButton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FINDNALLY/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FINDNALLY/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FINDNALLY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FINDNALLY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Dtt/dtt01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Dtt/dtt01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Prefabs/Dtt01.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Prefabs/Dtt01.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Prefabs/ImStarving.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Prefabs/ImStarving.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/01Case_Kitchen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/01Case_Kitchen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/02Case_Livingroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/02Case_Livingroom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/03Case_Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/03Case_Bedroom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/04Special_Birds.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/04Special_Birds.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/06Case_Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/06Case_Space.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/07Special_Birds.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/07Special_Birds.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/CollectionScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/CollectionScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Case_Unlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Case_Unlock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/CollectionList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/CollectionList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Collection_Unlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Collection_Unlock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/DttUnlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/DttUnlock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/LevelSelection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/LevelSelection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/DttHomeScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/DttHomeScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/CoinManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/CoinManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +35,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/HiddenObject/Scripts/LevelSelection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HiddenObject/Scripts/Throne/ThroneUpgrade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HiddenObject/Scripts/SettingMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HiddenObject/Scripts/Energy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HiddenObject/Scripts/Throne/Throne.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -67,7 +50,6 @@
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/SpecialLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/ChangeLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/CoinEarn.cs" />
-        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/CoinManager.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Energy.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/LevelSelection.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/CollectButton.cs" />
@@ -77,6 +59,19 @@
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/CollectionList.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/DttUnlock.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Plant.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/PlantDatabase.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/PlantManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/CoinManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Plant/Plant.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/DecorationManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Throne/Throne.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Throne/ThroneDB.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/PlantUpgrade.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Throne/ThroneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Plant/PlantManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Throne/ThroneUpgrade.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Plant/PlantUpgrade.cs" />
       </list>
     </option>
   </component>
@@ -153,6 +148,9 @@
       <workItem from="1633495116653" duration="1215000" />
       <workItem from="1633503293561" duration="16650000" />
       <workItem from="1633581684498" duration="5914000" />
+      <workItem from="1633594900035" duration="1271000" />
+      <workItem from="1633602097232" duration="10843000" />
+      <workItem from="1633619441714" duration="3493000" />
     </task>
     <servers />
   </component>

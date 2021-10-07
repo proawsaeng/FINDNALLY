@@ -21,6 +21,7 @@ public class CoinManager : MonoBehaviour
 
     public void ShowCoin()
     {
-        totalPlayerCoinsText.text = totalPlayerCoins.ToString();
+        int currentCoin = PlayerPrefs.GetInt("Coin");
+        totalPlayerCoinsText.text = currentCoin.ToString();
     }
 }
