@@ -21,15 +21,11 @@ public class LevelManager : MonoBehaviour
     public Case_Unlock caseUnlock;
     public Collection_Unlock collectionUnlock;
 
-
     //Coin
     public Text coinText;
     public int rewardCoins = 0;
     public int totalCoin = 0;
     
-    //Special Level Count
-    public int specialLevelCount = 2;
-    public int totalSpecialLevelReach = 0;
 
     [HideInInspector] public GameStatus gameStatus = GameStatus.NEXT;   //keep track of Game Status
     private List<HiddenObjectData> activeHiddenObjectList;              //ลิสต์ไอเทมที่ต้องหา
@@ -54,7 +50,6 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         totalCoin = PlayerPrefs.GetInt("Coin");
-        totalSpecialLevelReach = PlayerPrefs.GetInt("DTTUnlock");
         activeHiddenObjectList = new List<HiddenObjectData>();          
         AssignHiddenObjects();                                  
     }
@@ -133,9 +128,6 @@ public class LevelManager : MonoBehaviour
 
                             if (GameObject.FindGameObjectWithTag("SpecialLevel"))
                             {
-                                totalSpecialLevelReach += specialLevelCount;
-                                
-                                PlayerPrefs.SetInt("DTTUnlock", totalSpecialLevelReach);
                                 collectionUnlock.DttUnlock();
                             }
                             

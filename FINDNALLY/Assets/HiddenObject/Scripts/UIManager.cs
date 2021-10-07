@@ -21,10 +21,6 @@ public class UIManager : MonoBehaviour
     [SerializeField] public Button hintButton;
     [SerializeField] public Button timeAddButton;
     
-    [SerializeField] private GameObject[] collectButton;
-
-    //public CollectionList specialLevelReached;
-    public Collection_Unlock collectionUnlock;
 
     private List<GameObject> hiddenObjectIconList;                  
 
@@ -78,23 +74,7 @@ public class UIManager : MonoBehaviour
             }
         }
     }
-    
-    public void ShowCollectButton()
-    {
-        
-        //show collect button
-        Debug.Log("Show Collect Button");
-        for (int i = 0; i < collectButton.Length; i++)
-        {
-            if (i < collectionUnlock.dttToUnlock)
-            {
-                Debug.Log("Show Collect Button NOW WORK!!");
-                collectButton[i].SetActive(true);
-            }
 
-        }
-    }
-    
 
     public void NextButton()                                                    
     {

@@ -9,12 +9,6 @@ public class Case_Unlock : MonoBehaviour
     public void WinLevel()
     {
         PlayerPrefs.SetInt("levelReached", levelToUnlock);
-        
-        int currentLevel = 1;
-        if (currentLevel >= PlayerPrefs.GetInt("levelReached"))
-        {
-            PlayerPrefs.SetInt("levelReached", currentLevel + 1);
-            Debug.Log("PlayerPrefsAdded");
-        }
+        Debug.Log("WinLevel : " + levelToUnlock);
     }
 }

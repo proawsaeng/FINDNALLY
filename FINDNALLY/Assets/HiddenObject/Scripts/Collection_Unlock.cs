@@ -8,18 +8,14 @@ using UnityEngine.UI;
 public class Collection_Unlock : MonoBehaviour
 {
     public int dttToUnlock = 2;
+    public int collectButtonWillShow = 2;
 
 
     public void DttUnlock()
     {
         PlayerPrefs.SetInt("DTTUnlock", dttToUnlock);
-
-        int currentLevel = 1;
-        if (currentLevel >= PlayerPrefs.GetInt("DTTUnlock"))
-        {
-            
-            PlayerPrefs.SetInt("DTTUnlock", currentLevel + 1);
-            Debug.Log("New detective unlocked.");
-        }
+        PlayerPrefs.SetInt("Collected", collectButtonWillShow);
+        //Debug.Log("WinSpecialLevel & DttUnlock : " + dttToUnlock);
+        //Debug.Log("Collection Unlock : " + collectButtonWillShow);
     }
 }

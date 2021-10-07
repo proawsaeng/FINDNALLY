@@ -2358,6 +2358,58 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 16.677362
+--- !u!1 &977529781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 977529783}
+  - component: {fileID: 977529782}
+  m_Layer: 0
+  m_Name: CollectionList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &977529782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977529781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4700b82b25ab2b44b8a545933292389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DttList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  collectButton:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!4 &977529783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977529781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.16761649, y: -0.32000017, z: -0.05082151}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &987673439
 GameObject:
   m_ObjectHideFlags: 0
@@ -5381,6 +5433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dttToUnlock: 3
+  collectButtonWillShow: 3
 --- !u!4 &1747927888
 Transform:
   m_ObjectHideFlags: 0
@@ -5434,8 +5487,6 @@ MonoBehaviour:
   timeAddText: {fileID: 2141338229}
   hintButton: {fileID: 189131760}
   timeAddButton: {fileID: 1776371952}
-  collectButton: []
-  collectionUnlock: {fileID: 1747927887}
 --- !u!4 &1753327797
 Transform:
   m_ObjectHideFlags: 0
@@ -6443,8 +6494,6 @@ MonoBehaviour:
   coinText: {fileID: 1849265768}
   rewardCoins: 40
   totalCoin: 0
-  specialLevelCount: 2
-  totalSpecialLevelReach: 0
   gameStatus: 1
 --- !u!4 &2028036781
 Transform:

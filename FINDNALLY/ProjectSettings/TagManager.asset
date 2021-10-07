@@ -8,6 +8,7 @@ TagManager:
   - Background
   - CoinManager
   - SpecialLevel
+  - Collected
   layers:
   - Default
   - TransparentFX
