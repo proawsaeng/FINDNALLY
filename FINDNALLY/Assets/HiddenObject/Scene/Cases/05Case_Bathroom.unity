@@ -2941,8 +2941,6 @@ MonoBehaviour:
   timeAddText: {fileID: 501723860}
   hintButton: {fileID: 1490485439}
   timeAddButton: {fileID: 1475134585}
-  collectButton: []
-  collectionUnlock: {fileID: 0}
 --- !u!4 &1051144947
 Transform:
   m_ObjectHideFlags: 0
@@ -4231,10 +4229,8 @@ MonoBehaviour:
   caseUnlock: {fileID: 1513880250}
   collectionUnlock: {fileID: 0}
   coinText: {fileID: 56904952}
-  rewardCoins: 20
+  rewardCoins: 50
   totalCoin: 0
-  specialLevelCount: 2
-  totalSpecialLevelReach: 0
   gameStatus: 1
 --- !u!4 &1613038559
 Transform:

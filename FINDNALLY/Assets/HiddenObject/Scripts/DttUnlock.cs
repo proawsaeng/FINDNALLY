@@ -40,8 +40,6 @@ public class DttUnlock : MonoBehaviour
         //เก็บค่า click ของ Dtt01 เป็น true
         click01 = true;
         Save();
-        //Debug.Log("click01 : " + click01);
-
     }
     
     public void UnlockDtt02()
@@ -51,8 +49,6 @@ public class DttUnlock : MonoBehaviour
         
         click02 = true;
         Save();
-        //Debug.Log("click02 : " + click02);
-
     }
     
     public void UnlockDtt03()
@@ -62,7 +58,6 @@ public class DttUnlock : MonoBehaviour
         
         click03 = true;
         Save();
-        //Debug.Log("click03 : " + click03);
     }
     
     public void UnlockDtt04()
@@ -72,7 +67,6 @@ public class DttUnlock : MonoBehaviour
         
         click04 = true;
         Save();
-        //Debug.Log("click04 : " + click04);
     }
     
     

@@ -9,6 +9,8 @@ TagManager:
   - CoinManager
   - SpecialLevel
   - Collected
+  - Plant
+  - Throne
   layers:
   - Default
   - TransparentFX

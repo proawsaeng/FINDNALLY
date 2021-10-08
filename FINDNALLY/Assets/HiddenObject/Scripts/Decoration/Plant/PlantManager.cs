@@ -6,10 +6,11 @@ using UnityEngine.UI;
 public class PlantManager : MonoBehaviour
 {
     public PlantDatabase plantDB;
-
     public Image artworkImage;
-
     private int selectedOption = 0;
+
+    public PlantUpgrade hideButton;
+    
     void Start()
     {
         if (!PlayerPrefs.HasKey("selectedOption"))
@@ -21,7 +22,19 @@ public class PlantManager : MonoBehaviour
             Load();
         }
         
+        if (!PlayerPrefs.HasKey("Plantclick"))
+        {
+            PlayerPrefs.SetInt("Plantclick", 0);
+            Load();
+        }
+
+        else
+        {
+            Load();
+        }
+        
         UpdatePlant(selectedOption);
+        Load();
     }
 
     public void NextOption()
@@ -70,6 +83,10 @@ public class PlantManager : MonoBehaviour
     {
         //ShowObjectSelected
         Debug.Log("DONE");
+        Plant plant = plantDB.GetPlant(selectedOption);
+        artworkImage.sprite = plant.plantSprite;
+        
+        hideButton.HideButtons();
     }
     
 }

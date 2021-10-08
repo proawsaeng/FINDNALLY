@@ -63,8 +63,6 @@ public class CollectionList : MonoBehaviour
                 if (click01 == true)
                 {
                     collectButton[0].SetActive(false);
-                    
-                    Debug.Log("Show Detective 01");
                     dttPrefab[0].SetActive(true);
                 }
 
@@ -77,8 +75,6 @@ public class CollectionList : MonoBehaviour
                 if (click02 == true)
                 {
                     collectButton[1].SetActive(false);
-                    
-                    Debug.Log("Show Detective 02");
                     dttPrefab[1].SetActive(true);
                 }
                 
@@ -91,8 +87,6 @@ public class CollectionList : MonoBehaviour
                 if (click03 == true)
                 {
                     collectButton[2].SetActive(false);
-                    
-                    Debug.Log("Show Detective 03");
                     dttPrefab[2].SetActive(true);
                 }
                 
@@ -105,8 +99,6 @@ public class CollectionList : MonoBehaviour
                 if (click04 == true)
                 {
                     collectButton[3].SetActive(false);
-                    
-                    Debug.Log("Show Detective 04");
                     dttPrefab[3].SetActive(true);
                 }
             }

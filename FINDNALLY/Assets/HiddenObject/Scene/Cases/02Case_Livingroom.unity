@@ -1309,6 +1309,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  dttPrefab: []
 --- !u!4 &487646762
 Transform:
   m_ObjectHideFlags: 0
@@ -2588,9 +2589,8 @@ MonoBehaviour:
   levelToUnlock: 2
   caseUnlock: {fileID: 357130547}
   collectionUnlock: {fileID: 0}
-  collectbutton: {fileID: 487646761}
   coinText: {fileID: 529179198}
-  rewardCoins: 20
+  rewardCoins: 50
   totalCoin: 0
   gameStatus: 1
 --- !u!4 &791530305

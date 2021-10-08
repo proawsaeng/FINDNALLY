@@ -15,7 +15,5 @@ public class Collection_Unlock : MonoBehaviour
     {
         PlayerPrefs.SetInt("DTTUnlock", dttToUnlock);
         PlayerPrefs.SetInt("Collected", collectButtonWillShow);
-        //Debug.Log("WinSpecialLevel & DttUnlock : " + dttToUnlock);
-        //Debug.Log("Collection Unlock : " + collectButtonWillShow);
     }
 }

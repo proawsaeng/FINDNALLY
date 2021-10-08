@@ -13,27 +13,31 @@
             <e p="CoinManager.cs" t="Include" />
             <e p="Collection_Unlock.cs" t="Include" />
             <e p="CollectionList.cs" t="Include" />
+            <e p="Decoration" t="Include">
+              <e p="Plant" t="Include">
+                <e p="Plant.cs" t="Include" />
+                <e p="PlantDatabase.cs" t="Include" />
+                <e p="PlantManager.cs" t="Include" />
+                <e p="PlantSelected.cs" t="Include" />
+                <e p="PlantUpgrade.cs" t="Include" />
+              </e>
+              <e p="Throne" t="Include">
+                <e p="Throne.cs" t="Include" />
+                <e p="ThroneDB.cs" t="Include" />
+                <e p="ThroneManager.cs" t="Include" />
+                <e p="ThroneUpgrade.cs" t="Include" />
+              </e>
+            </e>
             <e p="DttUnlock.cs" t="Include" />
             <e p="Energy.cs" t="Include" />
             <e p="LevelManager.cs" t="Include" />
             <e p="LevelSelection.cs" t="Include" />
             <e p="ObjectHolder.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
-            <e p="Plant" t="Include">
-              <e p="Plant.cs" t="Include" />
-              <e p="PlantDatabase.cs" t="Include" />
-              <e p="PlantManager.cs" t="Include" />
-              <e p="PlantUpgrade.cs" t="Include" />
-            </e>
             <e p="SettingMenu.cs" t="Include" />
             <e p="SpecialLevel.cs" t="Include" />
-            <e p="Throne" t="Include">
-              <e p="Throne.cs" t="Include" />
-              <e p="ThroneDB.cs" t="Include" />
-              <e p="ThroneManager.cs" t="Include" />
-              <e p="ThroneUpgrade.cs" t="Include" />
-            </e>
             <e p="UIManager.cs" t="Include" />
+            <e p="UpgradeButtonManager.cs" t="Include" />
           </e>
         </e>
       </e>

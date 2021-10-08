@@ -7,6 +7,8 @@ public class ThroneManager : MonoBehaviour
 {
     public ThroneDB throneDB;
     public Image artworkImage;
+    
+    public ThroneUpgrade hideButton;
 
     private int throneSelectedOption = 0;
     void Start()
@@ -72,5 +74,9 @@ public class ThroneManager : MonoBehaviour
     {
         //ShowObjectSelected
         Debug.Log("DONE");
+        Throne throne = throneDB.GetThrone(throneSelectedOption);
+        artworkImage.sprite = throne.throneSprite;
+        
+        hideButton.HideButtons();
     }
 }
