@@ -21,9 +21,6 @@ public class CollectionList : MonoBehaviour
     {
         int speciallevelReached = PlayerPrefs.GetInt("DTTUnlock", 1);
 
-        Debug.Log("DTTUnlock : " + speciallevelReached);
-        //Debug.Log("CollectButtonShow : " + collectButtonClicked);
-
         for (int i = 0; i < DttList.Length; i++)
         {
             if(i + 1 > speciallevelReached)
@@ -46,7 +43,6 @@ public class CollectionList : MonoBehaviour
         {
             if (j + 1 > collectButtonShowing)
             {
-                Debug.Log("show button : " + collectButtonShowing);
                 collectButton[j].SetActive(false);
             }
             

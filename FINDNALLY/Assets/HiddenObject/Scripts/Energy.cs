@@ -36,7 +36,7 @@ public class Energy : MonoBehaviour
     {
         if (currentEnergy >= 1)
         {
-            currentEnergy -= 3;
+            currentEnergy -= 5;
             UpdateEnergy();
 
             if (isRestoring == false)

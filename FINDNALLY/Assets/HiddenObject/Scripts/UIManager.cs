@@ -16,8 +16,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Text timerText;
     [SerializeField] private Text hintText;
     [SerializeField] private Text timeAddText;
-    private int hintAmount = 2;
-    private int timeAddAmount = 2;
+    private int hintAmount;
+    private int addTimeAmount;
     [SerializeField] public Button hintButton;
     [SerializeField] public Button timeAddButton;
     
@@ -42,6 +42,12 @@ public class UIManager : MonoBehaviour
         }
 
         hiddenObjectIconList = new List<GameObject>();              
+    }
+
+    private void Start()
+    {
+        hintAmount = PlayerPrefs.GetInt("Hint");
+        addTimeAmount = PlayerPrefs.GetInt("AddTime");
     }
 
 
@@ -88,9 +94,11 @@ public class UIManager : MonoBehaviour
 
     public void HintButton()
     {
+        //ลดจำนวนตอนกด + แสดงจำนวน
         StartCoroutine(LevelManager.instance.HintObject());
-
-        hintAmount -= 1;
+        
+        PlayerPrefs.SetInt("Hint", PlayerPrefs.GetInt("Hint") - 1);
+        
         hintText.text = "" + hintAmount;
         if (hintAmount <= 0)
         {
@@ -102,9 +110,10 @@ public class UIManager : MonoBehaviour
     {
         StartCoroutine(LevelManager.instance.AddTimeObject());
         
-        timeAddAmount -= 1;
-        timeAddText.text = "" + timeAddAmount;
-        if (timeAddAmount <= 0)
+        PlayerPrefs.SetInt("AddTime", PlayerPrefs.GetInt("AddTime") - 1);
+        
+        timeAddText.text = "" + addTimeAmount;
+        if (addTimeAmount <= 0)
         {
             timeAddButton.interactable = false;
         }
@@ -124,6 +133,12 @@ public class UIManager : MonoBehaviour
     public void CollectionButton()
     {
         SceneManager.LoadScene("CollectionScene");
+    }
+
+    public void StoreButton()
+    {
+        SceneManager.LoadScene("Store");
+        Debug.Log("STORE");
     }
 
     public void CaseOne()

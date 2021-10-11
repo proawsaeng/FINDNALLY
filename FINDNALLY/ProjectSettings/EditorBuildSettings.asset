@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/HiddenObject/Scene/CollectionScene.unity
     guid: 7d5751691938c8c49be6c3dc6c58da81
   - enabled: 1
+    path: Assets/HiddenObject/Scene/Store.unity
+    guid: 68bfca5bd6f56bb40a94231dff87aee0
+  - enabled: 1
     path: Assets/HiddenObject/Scene/Cases/01Case_Kitchen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1

@@ -82,7 +82,6 @@ public class PlantManager : MonoBehaviour
     public void DoneSelection()
     {
         //ShowObjectSelected
-        Debug.Log("DONE");
         Plant plant = plantDB.GetPlant(selectedOption);
         artworkImage.sprite = plant.plantSprite;
         

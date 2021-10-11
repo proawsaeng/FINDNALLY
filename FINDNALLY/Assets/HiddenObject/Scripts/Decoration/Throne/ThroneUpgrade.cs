@@ -15,14 +15,14 @@ public class ThroneUpgrade : MonoBehaviour
     private bool throneUpgradeButton = false;
     
     //Show selected object
-    private int selectedOption = 0;
+    private int throneSelectedOption = 0;
     
     void Start()
     {
-        if (!PlayerPrefs.HasKey("ThroneUpgradeClick") || !PlayerPrefs.HasKey("selectedOption"))
+        if (!PlayerPrefs.HasKey("throneUpgradeClick") || !PlayerPrefs.HasKey("throneSelectedOption"))
         {
-            selectedOption = 0;
-            PlayerPrefs.SetInt("ThroneUpgradeClick", 0);
+            throneSelectedOption = 0;
+            PlayerPrefs.SetInt("throneUpgradeClick", 0);
             Load();
             
             ShowUpgradeButton();
@@ -88,13 +88,13 @@ public class ThroneUpgrade : MonoBehaviour
     
     private void Load()
     {
-        throneUpgradeButton = PlayerPrefs.GetInt("PlantUpgradeClick") == 1;
-        selectedOption = PlayerPrefs.GetInt("selectedOption");
+        throneUpgradeButton = PlayerPrefs.GetInt("throneUpgradeClick") == 1;
+        throneSelectedOption = PlayerPrefs.GetInt("throneSelectedOption");
     }
     
     private void Save()
     {
-        PlayerPrefs.SetInt("PlantUpgradeClick", throneUpgradeButton ? 1 : 0);
-        PlayerPrefs.SetInt("selectedOption", selectedOption);
+        PlayerPrefs.SetInt("throneUpgradeClick", throneUpgradeButton ? 1 : 0);
+        PlayerPrefs.SetInt("throneSelectedOption", throneSelectedOption);
     }
 }

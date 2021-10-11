@@ -18,7 +18,6 @@
                 <e p="Plant.cs" t="Include" />
                 <e p="PlantDatabase.cs" t="Include" />
                 <e p="PlantManager.cs" t="Include" />
-                <e p="PlantSelected.cs" t="Include" />
                 <e p="PlantUpgrade.cs" t="Include" />
               </e>
               <e p="Throne" t="Include">
@@ -30,14 +29,15 @@
             </e>
             <e p="DttUnlock.cs" t="Include" />
             <e p="Energy.cs" t="Include" />
+            <e p="ItemManager.cs" t="Include" />
             <e p="LevelManager.cs" t="Include" />
             <e p="LevelSelection.cs" t="Include" />
             <e p="ObjectHolder.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
             <e p="SettingMenu.cs" t="Include" />
             <e p="SpecialLevel.cs" t="Include" />
+            <e p="StoreManager.cs" t="Include" />
             <e p="UIManager.cs" t="Include" />
-            <e p="UpgradeButtonManager.cs" t="Include" />
           </e>
         </e>
       </e>

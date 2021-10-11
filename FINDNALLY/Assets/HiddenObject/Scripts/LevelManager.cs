@@ -26,8 +26,16 @@ public class LevelManager : MonoBehaviour
     public int rewardCoins = 0;
     public int totalCoin = 0;
     
+    //Item
+    public Text hintText;
+    public Text addTimeText;
+    public int rewardHint = 0;
+    public int rewardAddTime = 0;
+    public int totalHint = 0;
+    public int totalAddTime = 0;
 
-    [HideInInspector] public GameStatus gameStatus = GameStatus.NEXT;   //keep track of Game Status
+
+        [HideInInspector] public GameStatus gameStatus = GameStatus.NEXT;   //keep track of Game Status
     private List<HiddenObjectData> activeHiddenObjectList;              //ลิสต์ไอเทมที่ต้องหา
     private float currentTime;                                          //เวลาที่เหลือ
     private int totalHiddenObjectsFound = 0;                            //ไอเทมที่เจอ
@@ -50,6 +58,8 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         totalCoin = PlayerPrefs.GetInt("Coin");
+        totalHint = PlayerPrefs.GetInt("Hint");
+        totalAddTime = PlayerPrefs.GetInt("AddTime");
         activeHiddenObjectList = new List<HiddenObjectData>();          
         AssignHiddenObjects();                                  
     }
@@ -92,6 +102,8 @@ public class LevelManager : MonoBehaviour
 
     private void Update()
     {
+        ShowItemAmount();
+        
         if (gameStatus == GameStatus.PLAYING)                               
         {
             if (Input.GetMouseButtonDown(0))                                
@@ -128,6 +140,7 @@ public class LevelManager : MonoBehaviour
 
                             if (GameObject.FindGameObjectWithTag("SpecialLevel"))
                             {
+                                RewardItem();
                                 collectionUnlock.DttUnlock();
                             }
                             
@@ -182,6 +195,26 @@ public class LevelManager : MonoBehaviour
         totalCoin += rewardCoins;
         PlayerPrefs.SetInt("Coin", totalCoin);
         coinText.text = rewardCoins.ToString();
+    }
+
+    public void RewardItem()
+    {
+        totalHint += rewardHint;
+        PlayerPrefs.SetInt("Hint", totalHint);
+        hintText.text = rewardHint.ToString();
+        
+        totalAddTime += rewardAddTime;
+        PlayerPrefs.SetInt("AddTime", totalAddTime);
+        addTimeText.text = rewardAddTime.ToString();
+    }
+
+    public void ShowItemAmount()
+    {
+        int currentHint = PlayerPrefs.GetInt("Hint");
+        hintText.text = currentHint.ToString();
+        
+        int currentAddTime = PlayerPrefs.GetInt("AddTime");
+        addTimeText.text = currentAddTime.ToString();
     }
 }
 

@@ -27,8 +27,6 @@ public class ThroneManager : MonoBehaviour
 
     public void NextOption()
     {
-        Debug.Log("NEXT");
-        
         throneSelectedOption++;
 
         if (throneSelectedOption >= throneDB.ThroneCount)
@@ -42,7 +40,6 @@ public class ThroneManager : MonoBehaviour
 
     public void BackOption()
     {
-        Debug.Log("BACK");
         throneSelectedOption--;
 
         if (throneSelectedOption < 0)
@@ -73,7 +70,6 @@ public class ThroneManager : MonoBehaviour
     public void DoneSelection()
     {
         //ShowObjectSelected
-        Debug.Log("DONE");
         Throne throne = throneDB.GetThrone(throneSelectedOption);
         artworkImage.sprite = throne.throneSprite;
         
