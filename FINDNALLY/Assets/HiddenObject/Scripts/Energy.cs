@@ -9,7 +9,7 @@ public class Energy : MonoBehaviour
     [SerializeField] private Text energyText;
     [SerializeField] private Text energyTimerText;
     [SerializeField] private Slider energyBar;
-    private int maxEnergy = 25;
+    private int maxEnergy = 30;
     private int currentEnergy;
     private int restoreDuration = 5;
     private DateTime nextEnergyTime;
@@ -20,7 +20,7 @@ public class Energy : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("currentEnergy"))
         {
-            PlayerPrefs.SetInt("currentEnergy", 25);
+            PlayerPrefs.SetInt("currentEnergy", 30);
             Load();
             StartCoroutine(RestoreEnergy());
         }
@@ -34,14 +34,16 @@ public class Energy : MonoBehaviour
 
     public void UseEnergy()
     {
-        if (currentEnergy >= 1)
+        if (currentEnergy >= 5)
         {
             currentEnergy -= 5;
             UpdateEnergy();
+            
+            Debug.Log("current energy : " + currentEnergy);
 
             if (isRestoring == false)
             {
-                if (currentEnergy + 1 == maxEnergy)
+                if (currentEnergy == maxEnergy)
                 {
                     nextEnergyTime = AddDuration(DateTime.Now, restoreDuration);
                 }
@@ -150,10 +152,5 @@ public class Energy : MonoBehaviour
         PlayerPrefs.SetInt("currentEnergy", currentEnergy);
         PlayerPrefs.SetString("nextEnergyTime", nextEnergyTime.ToString());
         PlayerPrefs.SetString("lastEnergyTime", lastEnergyTime.ToString());
-    }
-    
-    public void ResetEnergyPlayerPrefs()
-    {
-        PlayerPrefs.DeleteAll();
     }
 }

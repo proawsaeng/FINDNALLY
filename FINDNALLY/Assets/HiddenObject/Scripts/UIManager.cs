@@ -20,7 +20,7 @@ public class UIManager : MonoBehaviour
     private int addTimeAmount;
     [SerializeField] public Button hintButton;
     [SerializeField] public Button timeAddButton;
-    
+
 
     private List<GameObject> hiddenObjectIconList;                  
 
@@ -46,8 +46,15 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        hintAmount = PlayerPrefs.GetInt("Hint");
-        addTimeAmount = PlayerPrefs.GetInt("AddTime");
+        if (PlayerPrefs.GetInt("Hint") > 0)
+        {
+            hintButton.interactable = true;
+        }
+        
+        if (PlayerPrefs.GetInt("AddTime") > 0)
+        {
+            timeAddButton.interactable = true;
+        }
     }
 
 
@@ -82,6 +89,11 @@ public class UIManager : MonoBehaviour
     }
 
 
+    public void HomeButton()
+    {
+        SceneManager.LoadScene("CaseScene");
+    }
+    
     public void NextButton()                                                    
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);       
@@ -94,13 +106,12 @@ public class UIManager : MonoBehaviour
 
     public void HintButton()
     {
-        //ลดจำนวนตอนกด + แสดงจำนวน
         StartCoroutine(LevelManager.instance.HintObject());
         
-        PlayerPrefs.SetInt("Hint", PlayerPrefs.GetInt("Hint") - 1);
-        
-        hintText.text = "" + hintAmount;
-        if (hintAmount <= 0)
+        PlayerPrefs.SetInt("Hint",PlayerPrefs.GetInt("Hint") - 1);
+        hintText.text = "" + PlayerPrefs.GetInt("Hint");
+
+        if (PlayerPrefs.GetInt("Hint") <= 0)
         {
             hintButton.interactable = false;
         }
@@ -110,10 +121,10 @@ public class UIManager : MonoBehaviour
     {
         StartCoroutine(LevelManager.instance.AddTimeObject());
         
-        PlayerPrefs.SetInt("AddTime", PlayerPrefs.GetInt("AddTime") - 1);
-        
-        timeAddText.text = "" + addTimeAmount;
-        if (addTimeAmount <= 0)
+        PlayerPrefs.SetInt("AddTime",PlayerPrefs.GetInt("AddTime") - 1);
+        timeAddText.text = "" + PlayerPrefs.GetInt("AddTime");
+
+        if (PlayerPrefs.GetInt("AddTime") <= 0)
         {
             timeAddButton.interactable = false;
         }
@@ -122,7 +133,7 @@ public class UIManager : MonoBehaviour
 
     public void CaseButton()
     {
-        SceneManager.LoadScene("CaseScene");
+        SceneManager.LoadScene("CaseMap");
     }
     
     public void OfficeButton()
@@ -174,5 +185,10 @@ public class UIManager : MonoBehaviour
     public void CaseSeven()
     {
         SceneManager.LoadScene("07Special_Birds");
+    }
+    
+    public void CaseEight()
+    {
+        SceneManager.LoadScene("08Case_Attic");
     }
 }

@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/HiddenObject/Scene/TitleScene.unity
     guid: 07aed5f6baee3df4f8ae4cfa57007a21
   - enabled: 1
+    path: Assets/HiddenObject/Scene/CaseMap.unity
+    guid: 3628604cb6b795e48920cd152d621589
+  - enabled: 1
     path: Assets/HiddenObject/Scene/CaseScene.unity
     guid: 510150fd1080970418baae54c27f4bd6
   - enabled: 1
@@ -41,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/HiddenObject/Scene/Cases/07Special_Birds.unity
     guid: bae199b0a701047419320a0cf63fadd5
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/Cases/08Case_Attic.unity
+    guid: 98cb7524253181c4c99e0796e7475d81
   m_configObjects: {}

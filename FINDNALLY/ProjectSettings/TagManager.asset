@@ -11,6 +11,9 @@ TagManager:
   - Collected
   - Plant
   - Throne
+  - FirePlace
+  - BoughtPanel
+  - BoughtHintPanel
   layers:
   - Default
   - TransparentFX

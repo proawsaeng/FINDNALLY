@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Case_Unlock : MonoBehaviour
 {
-    public int levelToUnlock = 2;
+    public int levelToUnlock;
     
     public void WinLevel()
     {

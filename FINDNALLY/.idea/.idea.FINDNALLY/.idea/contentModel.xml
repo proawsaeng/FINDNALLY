@@ -4,6 +4,7 @@
     <e p="C:\Users\USER\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\USER\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_FINDNALLY.-205597448.00" t="ExcludeRecursive" />
     <e p="D:\Desktop\University_2022\GameDesign_GI344\FINDNALLY - NiceTry\FINDNALLY\FINDNALLY" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="HiddenObject" t="Include">
@@ -13,34 +14,80 @@
             <e p="CoinManager.cs" t="Include" />
             <e p="Collection_Unlock.cs" t="Include" />
             <e p="CollectionList.cs" t="Include" />
-            <e p="Decoration" t="Include">
-              <e p="Plant" t="Include">
-                <e p="Plant.cs" t="Include" />
-                <e p="PlantDatabase.cs" t="Include" />
-                <e p="PlantManager.cs" t="Include" />
-                <e p="PlantUpgrade.cs" t="Include" />
-              </e>
-              <e p="Throne" t="Include">
-                <e p="Throne.cs" t="Include" />
-                <e p="ThroneDB.cs" t="Include" />
-                <e p="ThroneManager.cs" t="Include" />
-                <e p="ThroneUpgrade.cs" t="Include" />
-              </e>
-            </e>
             <e p="DttUnlock.cs" t="Include" />
             <e p="Energy.cs" t="Include" />
             <e p="ItemManager.cs" t="Include" />
             <e p="LevelManager.cs" t="Include" />
             <e p="LevelSelection.cs" t="Include" />
+            <e p="LevelStar.cs" t="Include" />
+            <e p="LongPressButton.cs" t="Include" />
             <e p="ObjectHolder.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
+            <e p="SceneLoader.cs" t="Include" />
             <e p="SettingMenu.cs" t="Include" />
+            <e p="ShowStar.cs" t="Include" />
             <e p="SpecialLevel.cs" t="Include" />
+            <e p="StarsHolder.cs" t="Include" />
             <e p="StoreManager.cs" t="Include" />
+            <e p="Swipe_Level.cs" t="Include" />
+            <e p="TweenText.cs" t="Include" />
             <e p="UIManager.cs" t="Include" />
           </e>
         </e>
+        <e p="LeanTween" t="Include">
+          <e p="Editor" t="Include">
+            <e p="LeanTweenDocumentationEditor.cs" t="Include" />
+          </e>
+          <e p="Framework" t="Include">
+            <e p="LeanAudio.cs" t="Include" />
+            <e p="LeanSmooth.cs" t="Include" />
+            <e p="LeanTest.cs" t="Include" />
+            <e p="LeanTween.cs" t="Include" />
+            <e p="LeanTweenExt.cs" t="Include" />
+            <e p="LTDescr.cs" t="Include" />
+            <e p="LTDescrOptional.cs" t="Include" />
+            <e p="LTSeq.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ParticleEffectForUGUI-main" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="AnimatableProperty.cs" t="Include" />
+            <e p="BakingCamera.cs" t="Include" />
+            <e p="CombineInstanceEx.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="AnimatedPropertiesEditor.cs" t="Include" />
+              <e p="ImportSampleMenu.cs" t="Include" />
+              <e p="UIParticleEditor.cs" t="Include" />
+              <e p="UIParticleMenu.cs" t="Include" />
+            </e>
+            <e p="MeshHelper.cs" t="Include" />
+            <e p="ModifiedMaterial.cs" t="Include" />
+            <e p="UIParticle.cs" t="Include" />
+            <e p="UIParticleUpdater.cs" t="Include" />
+            <e p="Utils.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="UIAdditive.shader" t="Include" />
+          </e>
+        </e>
+        <e p="UITween" t="Include">
+          <e p="Editor" t="Include">
+            <e p="EditorUITween.cs" t="Include" />
+          </e>
+          <e p="ScenesExamplesScripts" t="Include">
+            <e p="ActivateOnEnable.cs" t="Include" />
+            <e p="CreateAnimImage.cs" t="Include" />
+            <e p="FollowClick.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="EasyTween.cs" t="Include" />
+            <e p="ReferencedFrom.cs" t="Include" />
+            <e p="UITween.cs" t="Include" />
+          </e>
+        </e>
       </e>
+      <e p="Coffee.UIParticle.csproj" t="IncludeRecursive" />
+      <e p="Coffee.UIParticle.Editor.csproj" t="IncludeRecursive" />
       <e p="FINDNALLY.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class LevelSelection : MonoBehaviour
 {
-    
     public Button[] levelButtons;
 
     void Start()
@@ -17,9 +16,11 @@ public class LevelSelection : MonoBehaviour
         {
             if(i + 1 > levelReached)
                 levelButtons[i].interactable = false;
-            
+
             if (i < levelReached)
+            {
                 levelButtons[i].interactable = true;
+            }
         }
 
     }

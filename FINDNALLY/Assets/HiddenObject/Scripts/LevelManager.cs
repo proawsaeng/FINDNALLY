@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -10,16 +11,22 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager instance;
 
+    [SerializeField] private int currentLevel;                                 //What is this level
     [SerializeField] private float timeLimit = 0;                       //เวลานับถอยหลัง
     [SerializeField] private int maxHiddenObjectToFound = 6;            //maximum hidden objects ในแต่ละ level
     [SerializeField] private ObjectHolder objectHolderPrefab;           //Prefabลิสต์ของทั้งหมด
     [SerializeField] private GameObject reduceTimePrefab;
+    [SerializeField] private GameObject ringEffectPrefab;
     [SerializeField] private GameObject addTime;
-   
+    public Transform foundEffect;
+    public Transform hintEffect;
+    public Transform confettiEffect;
+
     private UIManager button;
-    public int levelToUnlock = 2;
     public Case_Unlock caseUnlock;
     public Collection_Unlock collectionUnlock;
+    public GameObject[] stars;
+    private LevelSelection levelSelection;
 
     //Coin
     public Text coinText;
@@ -37,7 +44,7 @@ public class LevelManager : MonoBehaviour
 
         [HideInInspector] public GameStatus gameStatus = GameStatus.NEXT;   //keep track of Game Status
     private List<HiddenObjectData> activeHiddenObjectList;              //ลิสต์ไอเทมที่ต้องหา
-    private float currentTime;                                          //เวลาที่เหลือ
+    public float currentTime;                                          //เวลาที่เหลือ
     private int totalHiddenObjectsFound = 0;                            //ไอเทมที่เจอ
     private TimeSpan time;                                              
     private RaycastHit2D hit;
@@ -58,15 +65,13 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         totalCoin = PlayerPrefs.GetInt("Coin");
-        totalHint = PlayerPrefs.GetInt("Hint");
-        totalAddTime = PlayerPrefs.GetInt("AddTime");
         activeHiddenObjectList = new List<HiddenObjectData>();          
-        AssignHiddenObjects();                                  
+        AssignHiddenObjects();
     }
 
     void AssignHiddenObjects()  //Method กำหนดไอเทมที่ต้องหา
     {
-        ObjectHolder objectHolder = Instantiate(objectHolderPrefab, Vector3.zero, Quaternion.identity);
+        ObjectHolder objectHolder = Instantiate(objectHolderPrefab, new Vector3(0,0,1), Quaternion.identity);
         objectHolderPrefab.gameObject.SetActive(false);
         totalHiddenObjectsFound = 0;                                        
         activeHiddenObjectList.Clear();                                    
@@ -102,6 +107,7 @@ public class LevelManager : MonoBehaviour
 
     private void Update()
     {
+
         ShowItemAmount();
         
         if (gameStatus == GameStatus.PLAYING)                               
@@ -123,6 +129,10 @@ public class LevelManager : MonoBehaviour
                         {
                             if (activeHiddenObjectList[i].hiddenObj.name == hit.collider.gameObject.name)
                             {
+                                //FoundEffect
+                                Instantiate(foundEffect, hit.collider.gameObject.transform.position,foundEffect.rotation);
+
+                                //Delay 1 sec before disappear
                                 activeHiddenObjectList.RemoveAt(i);
                                 break;
                             }
@@ -133,9 +143,13 @@ public class LevelManager : MonoBehaviour
                         if (totalHiddenObjectsFound >= maxHiddenObjectToFound)  
                         {
                             Debug.Log("Level Complete");
+                            Debug.Log("Time left : " + currentTime);
+                            StarsAcheived();
+                            caseUnlock.WinLevel();
                             //Reward coins
                             RewardCoins();
 
+                            Instantiate(confettiEffect, new Vector3(0,-2,-1f),confettiEffect.rotation);
                             UIManager.instance.GameCompleteObj.SetActive(true);
 
                             if (GameObject.FindGameObjectWithTag("SpecialLevel"))
@@ -144,7 +158,6 @@ public class LevelManager : MonoBehaviour
                                 collectionUnlock.DttUnlock();
                             }
                             
-                            caseUnlock.WinLevel();
                             gameStatus = GameStatus.NEXT;
                         }
                     }
@@ -177,19 +190,26 @@ public class LevelManager : MonoBehaviour
     {
         int randomValue = UnityEngine.Random.Range(0, activeHiddenObjectList.Count);
         Vector3 originalScale = activeHiddenObjectList[randomValue].hiddenObj.transform.localScale;
-        activeHiddenObjectList[randomValue].hiddenObj.transform.localScale = originalScale * 1.25f;
-        yield return new WaitForSeconds(0.5f);
+        GameObject ringEffect = (GameObject)Instantiate(ringEffectPrefab, activeHiddenObjectList[randomValue].hiddenObj.transform.position, hintEffect.rotation);
+        activeHiddenObjectList[randomValue].hiddenObj.transform.localScale = originalScale * 1.5f;
+        Destroy(ringEffect, 4f);
+        
+        yield return new WaitForSeconds(3f);
         activeHiddenObjectList[randomValue].hiddenObj.transform.localScale = originalScale;
     }
 
     public IEnumerator AddTimeObject()
     {
         currentTime += 5;
+        Vector3 originalScale = addTime.transform.localScale;
         addTime.SetActive(true);
+        addTime.transform.localScale = originalScale;
+        addTime.transform.localScale = originalScale * 2f;
         yield return new WaitForSeconds(0.5f);
+        addTime.transform.localScale = originalScale;
         addTime.SetActive(false);
     }
-    
+
     public void RewardCoins()
     {
         totalCoin += rewardCoins;
@@ -199,6 +219,12 @@ public class LevelManager : MonoBehaviour
 
     public void RewardItem()
     {
+        totalAddTime = PlayerPrefs.GetInt("AddTime");
+        totalHint = PlayerPrefs.GetInt("Hint");
+        
+        Debug.Log("AddTime : " + PlayerPrefs.GetInt("AddTime"));
+        Debug.Log("Hint : " + PlayerPrefs.GetInt("Hint"));
+
         totalHint += rewardHint;
         PlayerPrefs.SetInt("Hint", totalHint);
         hintText.text = rewardHint.ToString();
@@ -215,6 +241,60 @@ public class LevelManager : MonoBehaviour
         
         int currentAddTime = PlayerPrefs.GetInt("AddTime");
         addTimeText.text = currentAddTime.ToString();
+    }
+
+    public void StarsAcheived()
+    {
+        float rate = currentTime;
+        if (rate >= 80)
+        {
+            //three stars
+            stars[0].SetActive(true);
+            stars[1].SetActive(true);
+            stars[2].SetActive(true);
+            
+            SetStar(currentLevel,3);
+            Debug.Log("Level: " + currentLevel + " Got"+GetStar(currentLevel)+"Stars");
+        }
+        else if (rate >= 40 && rate <= 79)
+        {
+            //two stars
+            stars[0].SetActive(true);
+            stars[1].SetActive(true);
+            
+            SetStar(currentLevel,2);
+            Debug.Log("Level: " + currentLevel + " Got"+GetStar(currentLevel)+"Stars");
+        }
+        else if(rate <= 39 && rate !=0)
+        {
+            //one star
+            stars[0].SetActive(true);
+            
+            SetStar(currentLevel,1);
+            Debug.Log("Level: " + currentLevel + " Got"+GetStar(currentLevel)+"Star");
+        }
+        else if(rate == 0)
+        {
+            SetStar(currentLevel,0);
+            Debug.Log("Level: " + currentLevel + " Got"+GetStar(currentLevel)+"Star"); 
+        }
+    }
+    
+    public void SetStar(int level, int starAmount)
+    {
+        PlayerPrefs.SetInt(GetKey(level), starAmount);
+    }
+    
+    public int GetStar(int level)
+    {
+        return PlayerPrefs.GetInt(GetKey(level));
+    }
+
+    public string GetKey(int level)
+    {
+        //ไว้ตั้งชื่อ PlayerPrefs
+        //"Level_1_Star"
+        return "Level_" + level + "_Star";
     }
 }
 
