@@ -12,10 +12,7 @@ EditorBuildSettings:
     path: Assets/HiddenObject/Scene/CaseMap.unity
     guid: 3628604cb6b795e48920cd152d621589
   - enabled: 1
-    path: Assets/HiddenObject/Scene/CaseScene.unity
-    guid: 510150fd1080970418baae54c27f4bd6
-  - enabled: 1
-    path: Assets/HiddenObject/Scene/DttHomeScene.unity
+    path: Assets/HiddenObject/Scene/EndlessCase.unity
     guid: ef142568a4b8eec45bb22f2e2a91e9e2
   - enabled: 1
     path: Assets/HiddenObject/Scene/CollectionScene.unity
@@ -47,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/HiddenObject/Scene/Cases/08Case_Attic.unity
     guid: 98cb7524253181c4c99e0796e7475d81
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/CaseEndless/Level01.unity
+    guid: f3f53d1d71f6e534290c8f7174cd1c5a
   m_configObjects: {}

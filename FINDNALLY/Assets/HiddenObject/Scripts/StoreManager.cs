@@ -15,6 +15,12 @@ public class StoreManager : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("Coin") >= 50)
         {
+            //SFXbuy
+            if (SfxManager.sfxInstance.musicToggle == true)
+            {
+                SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.buySound);
+            }
+            
             PlayerPrefs.SetInt("Hint", PlayerPrefs.GetInt("Hint") + 1);
             PlayerPrefs.SetInt("Coin", PlayerPrefs.GetInt("Coin") - 50);
             boughtHintObj.SetActive(true);
@@ -22,6 +28,12 @@ public class StoreManager : MonoBehaviour
         
         else
         {
+            //SFXwrong
+            if (SfxManager.sfxInstance.musicToggle == true)
+            {
+                SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.wrongSound);
+            }
+            
             Debug.Log("Not enough money!!");
             StartCoroutine(ShowNoMoneyText());
         }
@@ -31,6 +43,12 @@ public class StoreManager : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("Coin") >= 50)
         {
+            //SFXbuy
+            if (SfxManager.sfxInstance.musicToggle == true)
+            {
+                SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.buySound);
+            }
+            
             PlayerPrefs.SetInt("AddTime", PlayerPrefs.GetInt("AddTime") + 1);
             PlayerPrefs.SetInt("Coin", PlayerPrefs.GetInt("Coin") - 50);
             boughtAddtimeObj.SetActive(true);
@@ -38,6 +56,12 @@ public class StoreManager : MonoBehaviour
         
         else
         {
+            //SFXwrong
+            if (SfxManager.sfxInstance.musicToggle == true)
+            {
+                SfxManager.sfxInstance.Audio.PlayOneShot(SfxManager.sfxInstance.wrongSound);
+            }
+            
             Debug.Log("Not enough money!!");
             StartCoroutine(ShowNoMoneyText());
         }
