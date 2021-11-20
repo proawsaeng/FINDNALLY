@@ -29,7 +29,7 @@ public class EndlessUiManager : MonoBehaviour
         hiddenObjectIconList = new List<GameObject>();              
     }
     
-    public void PopulateHiddenObjectIcons(List<EndlessHiddenObjectData> endlessHiddenObjectData)
+    public void PopulateHiddenObjectIcons(List<EndlessLevelManager_.EndlessHiddenObjectData> endlessHiddenObjectData)
     {
         hiddenObjectIconList.Clear();                               
         for (int i = 0; i < endlessHiddenObjectData.Count; i++)            

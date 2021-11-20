@@ -12,18 +12,24 @@
             <e p="CameraResize.cs" t="Include" />
             <e p="Level" t="Include">
               <e p="EndlessLevelManager.cs" t="Include" />
+              <e p="EndlessLevelManager_.cs" t="Include" />
+              <e p="EndlessObjectHolder.cs" t="Include" />
               <e p="ItemManager.cs" t="Include" />
               <e p="LevelManager.cs" t="Include" />
               <e p="ObjectHolder.cs" t="Include" />
+              <e p="PanZoom.cs" t="Include" />
               <e p="SpecialLevel.cs" t="Include" />
             </e>
             <e p="Menu" t="Include">
+              <e p="EndlessLevelSelection.cs" t="Include" />
+              <e p="EndlessShowStar.cs" t="Include" />
               <e p="Energy.cs" t="Include" />
               <e p="LevelSelection.cs" t="Include" />
               <e p="LevelStar.cs" t="Include" />
               <e p="ShowStar.cs" t="Include" />
               <e p="Swipe_Level.cs" t="Include" />
             </e>
+            <e p="PanZoomCam.cs" t="Include" />
             <e p="SoundManager" t="Include">
               <e p="BGMusic.cs" t="Include" />
               <e p="SfxManager.cs" t="Include" />

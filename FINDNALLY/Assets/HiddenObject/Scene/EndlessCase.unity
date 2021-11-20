@@ -457,7 +457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.34100002, y: 1}
-  m_AnchoredPosition: {x: 7.3, y: 0.6575546}
+  m_AnchoredPosition: {x: 7.3000145, y: 0.6575546}
   m_SizeDelta: {x: 6, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &234897653
@@ -534,8 +534,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0.00013351, y: 399.98}
-  m_SizeDelta: {x: 480.0003, y: 800.0415}
+  m_AnchoredPosition: {x: 0.00013351, y: 400}
+  m_SizeDelta: {x: 480.0003, y: 799.99646}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &284757271
 MonoBehaviour:
@@ -565,7 +565,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.003921569}
   m_RaycastTarget: 1
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -606,7 +606,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 25
+  m_ScrollSensitivity: 1
   m_Viewport: {fileID: 284757270}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 0}
@@ -1197,10 +1197,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 504401281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06e565b3ea248dc43b237bf4e5cc52a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 1efd8d1031d495240894496f7f1073a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 4
+  endlessLevel: 4
   levelButton: {fileID: 504401286}
   levelStarPrefab: {fileID: 5591980332930964691, guid: 20e5fb34d8a1ad444b71935425cc98b7,
     type: 3}
@@ -1572,10 +1572,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 691660493}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06e565b3ea248dc43b237bf4e5cc52a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 1efd8d1031d495240894496f7f1073a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 5
+  endlessLevel: 5
   levelButton: {fileID: 691660498}
   levelStarPrefab: {fileID: 5591980332930964691, guid: 20e5fb34d8a1ad444b71935425cc98b7,
     type: 3}
@@ -2781,10 +2781,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1038010203}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06e565b3ea248dc43b237bf4e5cc52a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 1efd8d1031d495240894496f7f1073a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 3
+  endlessLevel: 3
   levelButton: {fileID: 1038010208}
   levelStarPrefab: {fileID: 5591980332930964691, guid: 20e5fb34d8a1ad444b71935425cc98b7,
     type: 3}
@@ -4081,10 +4081,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1604511023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06e565b3ea248dc43b237bf4e5cc52a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 1efd8d1031d495240894496f7f1073a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 2
+  endlessLevel: 2
   levelButton: {fileID: 1604511028}
   levelStarPrefab: {fileID: 5591980332930964691, guid: 20e5fb34d8a1ad444b71935425cc98b7,
     type: 3}
@@ -5125,8 +5125,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.80500007}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -28.729645}
+  m_AnchoredPosition: {x: -0.000076293945, y: 0}
+  m_SizeDelta: {x: 0.00024414062, y: -28.729645}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1852959108
 MonoBehaviour:
@@ -5521,10 +5521,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1966105359}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06e565b3ea248dc43b237bf4e5cc52a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 1efd8d1031d495240894496f7f1073a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 1
+  endlessLevel: 1
   levelButton: {fileID: 1966105364}
   levelStarPrefab: {fileID: 5591980332930964691, guid: 20e5fb34d8a1ad444b71935425cc98b7,
     type: 3}
@@ -5790,7 +5790,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2106844998}
+      - m_Target: {fileID: 0}
         m_MethodName: ResetPlayerPrefs
         m_Mode: 1
         m_Arguments:
@@ -6153,7 +6153,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2106844997}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d924a81d141b594a9fe57e0368802be, type: 3}
+  m_Script: {fileID: 11500000, guid: 440de01bfe156bb40832f30637d8e1bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelButtons:

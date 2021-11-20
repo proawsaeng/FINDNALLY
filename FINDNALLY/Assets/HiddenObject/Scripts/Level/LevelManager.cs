@@ -42,7 +42,7 @@ public class LevelManager : MonoBehaviour
     public int totalAddTime = 0;
 
 
-        [HideInInspector] public GameStatus gameStatus = GameStatus.NEXT;   //keep track of Game Status
+    [HideInInspector] public GameStatus gameStatus = GameStatus.NEXT;   //keep track of Game Status
     private List<HiddenObjectData> activeHiddenObjectList;              //ลิสต์ไอเทมที่ต้องหา
     public float currentTime;                                          //เวลาที่เหลือ
     private int totalHiddenObjectsFound = 0;                            //ไอเทมที่เจอ
@@ -72,7 +72,7 @@ public class LevelManager : MonoBehaviour
     void AssignHiddenObjects()  //Method กำหนดไอเทมที่ต้องหา
     {
         ObjectHolder objectHolder = Instantiate(objectHolderPrefab, new Vector3(0,0,1), Quaternion.identity);
-        objectHolderPrefab.gameObject.SetActive(false);
+        objectHolderPrefab.gameObject.SetActive(true);
         totalHiddenObjectsFound = 0;                                        
         activeHiddenObjectList.Clear();                                    
         gameStatus = GameStatus.PLAYING;                                    
