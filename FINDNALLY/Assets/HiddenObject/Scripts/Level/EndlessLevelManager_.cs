@@ -110,6 +110,8 @@ public class EndlessLevelManager_ : MonoBehaviour
                         {
                             if (activeHiddenObjectList[i].hiddenObj.name == hit.collider.gameObject.name)
                             {
+                                totalHiddenObjectsFound++;
+                                
                                 //SFXfound
                                 if (SfxManager.sfxInstance.musicToggle == true)
                                 {
@@ -125,7 +127,7 @@ public class EndlessLevelManager_ : MonoBehaviour
                             }
                         }
                         
-                        totalHiddenObjectsFound++;                              
+                        //totalHiddenObjectsFound++;                              
                         
                         if (totalHiddenObjectsFound >= maxHiddenObjectToFound)  
                         {

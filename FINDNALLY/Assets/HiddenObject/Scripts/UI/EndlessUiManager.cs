@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,7 +12,12 @@ public class EndlessUiManager : MonoBehaviour
     [SerializeField] private GameObject hiddenObjectIconHolder;     
     [SerializeField] private GameObject hiddenObjectIconPrefab;     
     [SerializeField] private GameObject gameCompleteObj;
-    private List<GameObject> hiddenObjectIconList;                  
+    private List<GameObject> hiddenObjectIconList;    
+    
+    //Energy check
+    [SerializeField] public GameObject outOfEnergyPanel;
+    public GameObject currentEnergy;
+    private Energy energy;
 
     public GameObject GameCompleteObj { get => gameCompleteObj; }
 
@@ -28,7 +34,12 @@ public class EndlessUiManager : MonoBehaviour
 
         hiddenObjectIconList = new List<GameObject>();              
     }
-    
+
+    private void Start()
+    {
+        energy = currentEnergy.GetComponent<Energy>();
+    }
+
     public void PopulateHiddenObjectIcons(List<EndlessLevelManager_.EndlessHiddenObjectData> endlessHiddenObjectData)
     {
         hiddenObjectIconList.Clear();                               
@@ -67,15 +78,35 @@ public class EndlessUiManager : MonoBehaviour
     
     public void NextButton()                                                    
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);       
+        if (energy.currentEnergy >= 5)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else
+        {
+            //Show Out of Energy Panel
+            outOfEnergyPanel.SetActive(true);
+        }
     }
 
     public void TryAgainButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (energy.currentEnergy >= 5)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        else
+        {
+            //Show Out of Energy Panel
+            outOfEnergyPanel.SetActive(true);
+        }
     }
-
-
+    
+    public void CloseEnergyOutPanel()
+    {
+        outOfEnergyPanel.SetActive(false);
+    }
+    
     public void CaseButton()
     {
         SceneManager.LoadScene("CaseMap");

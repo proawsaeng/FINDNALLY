@@ -65,14 +65,14 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         totalCoin = PlayerPrefs.GetInt("Coin");
-        activeHiddenObjectList = new List<HiddenObjectData>();          
+        activeHiddenObjectList = new List<HiddenObjectData>();
         AssignHiddenObjects();
     }
 
     void AssignHiddenObjects()  //Method กำหนดไอเทมที่ต้องหา
     {
         ObjectHolder objectHolder = Instantiate(objectHolderPrefab, new Vector3(0,0,1), Quaternion.identity);
-        objectHolderPrefab.gameObject.SetActive(true);
+        objectHolderPrefab.gameObject.SetActive(false);
         totalHiddenObjectsFound = 0;                                        
         activeHiddenObjectList.Clear();                                    
         gameStatus = GameStatus.PLAYING;                                    
@@ -129,6 +129,8 @@ public class LevelManager : MonoBehaviour
                         {
                             if (activeHiddenObjectList[i].hiddenObj.name == hit.collider.gameObject.name)
                             {
+                                totalHiddenObjectsFound++;
+                                
                                 //SFXfound
                                 if (SfxManager.sfxInstance.musicToggle == true)
                                 {
@@ -144,7 +146,7 @@ public class LevelManager : MonoBehaviour
                             }
                         }
                         
-                        totalHiddenObjectsFound++;                              
+                        //totalHiddenObjectsFound++;                              
                         
                         if (totalHiddenObjectsFound >= maxHiddenObjectToFound)  
                         {
@@ -242,7 +244,7 @@ public class LevelManager : MonoBehaviour
         addTime.SetActive(true);
         addTime.transform.localScale = originalScale;
         addTime.transform.localScale = originalScale * 2f;
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         addTime.transform.localScale = originalScale;
         addTime.SetActive(false);
     }

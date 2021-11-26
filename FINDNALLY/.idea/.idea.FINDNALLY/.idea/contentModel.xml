@@ -10,8 +10,9 @@
         <e p="HiddenObject" t="Include">
           <e p="Scripts" t="Include">
             <e p="CameraResize.cs" t="Include" />
+            <e p="Cheat.cs" t="Include" />
+            <e p="EnergyCheat.cs" t="Include" />
             <e p="Level" t="Include">
-              <e p="EndlessLevelManager.cs" t="Include" />
               <e p="EndlessLevelManager_.cs" t="Include" />
               <e p="EndlessObjectHolder.cs" t="Include" />
               <e p="ItemManager.cs" t="Include" />

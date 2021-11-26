@@ -20,6 +20,11 @@ public class UIManager : MonoBehaviour
     private int addTimeAmount;
     [SerializeField] public Button hintButton;
     [SerializeField] public Button timeAddButton;
+    
+    //Energy check
+    [SerializeField] public GameObject outOfEnergyPanel;
+    public GameObject currentEnergy;
+    private Energy energy;
 
 
     private List<GameObject> hiddenObjectIconList;                  
@@ -46,6 +51,8 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
+        energy = currentEnergy.GetComponent<Energy>();
+        
         if (PlayerPrefs.GetInt("Hint") > 0)
         {
             hintButton.interactable = true;
@@ -96,12 +103,28 @@ public class UIManager : MonoBehaviour
     
     public void NextButton()                                                    
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);       
+        if (energy.currentEnergy >= 5)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);       
+        }
+        else
+        {
+            //Show Out of Energy Panel
+            outOfEnergyPanel.SetActive(true);
+        }
     }
 
     public void TryAgainButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (energy.currentEnergy >= 5)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        else
+        {
+            //Show Out of Energy Panel
+            outOfEnergyPanel.SetActive(true);
+        }
     }
 
     public void HintButton()
@@ -166,6 +189,11 @@ public class UIManager : MonoBehaviour
         }
         SceneManager.LoadScene("Store");
         Debug.Log("STORE");
+    }
+    
+    public void CloseEnergyOutPanel()
+    {
+        outOfEnergyPanel.SetActive(false);
     }
 
     public void CaseOne()

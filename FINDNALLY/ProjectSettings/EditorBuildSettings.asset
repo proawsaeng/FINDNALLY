@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/HiddenObject/Scene/CaseEndless/Level01.unity
     guid: f3f53d1d71f6e534290c8f7174cd1c5a
+  - enabled: 1
+    path: Assets/HiddenObject/Scene/CaseEndless/Level02.unity
+    guid: 71149cc1b6ff4884088906ed1613e800
   m_configObjects: {}

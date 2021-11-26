@@ -10,7 +10,7 @@ public class Energy : MonoBehaviour
     [SerializeField] private Text energyTimerText;
     [SerializeField] private Slider energyBar;
     private int maxEnergy = 30;
-    private int currentEnergy;
+    public int currentEnergy;
     private int restoreDuration = 5;
     private DateTime nextEnergyTime;
     private DateTime lastEnergyTime;
@@ -38,7 +38,7 @@ public class Energy : MonoBehaviour
         {
             currentEnergy -= 5;
             UpdateEnergy();
-            
+
             Debug.Log("current energy : " + currentEnergy);
 
             if (isRestoring == false)
@@ -55,6 +55,7 @@ public class Energy : MonoBehaviour
         {
             Debug.Log("Out of energy!");
         }
+
     }
 
     private IEnumerator RestoreEnergy()
@@ -90,7 +91,7 @@ public class Energy : MonoBehaviour
                 lastEnergyTime = DateTime.Now;
                 nextEnergyTime = nextDateTime;
             }
-            
+
             UpdateEnergyTimer();
             UpdateEnergy();
             Save();
@@ -102,8 +103,8 @@ public class Energy : MonoBehaviour
 
     private DateTime AddDuration(DateTime datetime, int duration)
     {
-        return datetime.AddSeconds(duration);
-        //return datetime.AddMinutes(duration);
+        //return datetime.AddSeconds(duration);
+        return datetime.AddMinutes(duration);
     }
 
     private void UpdateEnergyTimer()
@@ -140,6 +141,27 @@ public class Energy : MonoBehaviour
         }
     }
 
+    public void EnergyCheat()
+    {
+        Debug.Log("Turn on EnergyCheat");
+        
+        currentEnergy = 30;
+        UpdateEnergy();
+        Save();
+
+        if (isRestoring == false)
+        {
+            if (currentEnergy == maxEnergy)
+            {
+                nextEnergyTime = AddDuration(DateTime.Now, restoreDuration);
+            }
+
+            StartCoroutine(RestoreEnergy());
+        }
+
+        UpdateEnergyTimer();
+    }
+    
     private void Load()
     {
         currentEnergy = PlayerPrefs.GetInt("currentEnergy");

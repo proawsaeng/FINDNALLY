@@ -22,283 +22,65 @@
     <list default="true" id="3f81d9e8-af49-4614-a78f-a18c4aa76202" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FINDNALLY/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FINDNALLY/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FINDNALLY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FINDNALLY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/AtticBG.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/AtticBG.JPG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/bag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/bag.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/butterfly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/butterfly.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/cage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/cage.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/chair.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/chair.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/doggy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/doggy.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/flask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/flask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/plant pot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/plant pot.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/spider.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/spider.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/star pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/star pic.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/witch hat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Attic/witch hat.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/BathroomBg.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/BathroomBg.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/bottle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/bottle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/colgate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/colgate.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/comb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/comb.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/hairconditioner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/hairconditioner.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/hairdryer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/hairdryer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/hairstraightener.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/hairstraightener.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/shampoo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/shampoo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/soap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/soap.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/sunscreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/sunscreen.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/toothbrush.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bathroom/toothbrush.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/01_balbasaur.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/01_balbasaur.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/02_rose.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/02_rose.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/03_needles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/03_needles.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/04_flask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/04_flask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/05_bicycle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/05_bicycle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/06_lightning.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/06_lightning.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/07_brush.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/07_brush.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/08_banana.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/08_banana.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/09_flower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/09_flower.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/10_fish.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/10_fish.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/BedroomBg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/BedroomBg.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/bag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/bag.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/balloon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/balloon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/book.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/book.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/books.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/books.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/bottle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/bottle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/cactus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/cactus.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/car.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/car.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/cat.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/dolls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/dolls.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/laptop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/laptop.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/pikachu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/pikachu.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/plant01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/plant01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/plant02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/plant02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/plant03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/plant03.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/scissors.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/scissors.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/sock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/sock.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/yarn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Bedroom/yarn.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_bread.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_bread.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_cinnamon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_cinnamon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_cola.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_cola.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_egg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_egg.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_frenchfries.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_frenchfries.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_ovenmitt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_ovenmitt.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_pizza.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_pizza.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_salt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/Item01/_salt.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/bottles.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/bottles.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/bowl.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/bowl.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/cat.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/cat.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/catfood.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/catfood.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/dish.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/dish.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/kitchenbg.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/kitchenbg.JPG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/kitchenware.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/kitchenware.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/paperbag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/paperbag.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/pizzabox1.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/pizzabox1.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/pizzabox2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/pizzabox2.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/plant.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/plant.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/platelid.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/platelid.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/pot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/pot.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/ramen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/ramen.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/rice.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/rice.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/spatula.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/spatula.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/toaster.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Kitchen/toaster.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_bag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_bag.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_bottle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_bottle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_candle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_candle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_coin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_coin.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_dog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_dog.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_hat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_hat.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_masterball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_masterball.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_pin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_pin.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_pokedex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/Item02/_pokedex.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/LivingRoomBg.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Livingroom/LivingRoomBg.JPG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/SpaceBg.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/SpaceBg.JPG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/astronaut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/astronaut.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/bow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/bow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/camera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/camera.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/flag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/flag.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/flashlight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/flashlight.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/glove.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/glove.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/gun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/gun.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/helmet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/helmet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/jetpack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/jetpack.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/telephone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/telephone.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/ufo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Space/ufo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/SpecialBirdBG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/SpecialBirdBG.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/SpecialBirdFullart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/SpecialBirdFullart.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird03.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird04.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird05.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird06.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird07.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird08.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird09.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds01/bird10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B03.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B04.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B05.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B06.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B07.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B08.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B09.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B11.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B12.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B13.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B15.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B17.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B18.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B19.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/B20.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/SpecialBirdBG02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/Special_Birds02/SpecialBirdBG02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/FarmBg.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/FarmBg.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/afish.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/afish.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/artboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/artboard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/babystroller.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/babystroller.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/buffalo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/buffalo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/doggo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/doggo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/doraemon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/doraemon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/fishingrod.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/fishingrod.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/flyingbird.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/flyingbird.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/goat.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/goat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/littleBuffalo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/littleBuffalo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/logs.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/logs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/lostballoon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/lostballoon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/paperboat.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/paperboat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/rake.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/rake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/shoes.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/shoes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/sleepingcat.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/sleepingcat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/symbol.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/symbol.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/tractor.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/tractor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/turtle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/turtle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/umbrella.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/EndlessCase/Farm/umbrella.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level02.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level03.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level04.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level05.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level06.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level07.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level08.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/Cases/level08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/EndlessCase/Endless_Level_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/EndlessCase/Endless_Level_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/EndlessCase/Endless_Level_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/EndlessCase/Endless_Level_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/EndlessCase/Endless_Level_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/EndlessCase/Endless_Level_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/EndlessCase/Endless_Level_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/EndlessCase/Endless_Level_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/EndlessCase/Endless_Level_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/EndlessCase/Endless_Level_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/EndlessLevelMap.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/EndlessLevelMap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/MapBG.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Art/UI/MapBG.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/CaseEndless/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/CaseEndless/Level01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/CaseMap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/CaseMap.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/01Case_Kitchen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/01Case_Kitchen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/02Case_Livingroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/02Case_Livingroom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/03Case_Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/03Case_Bedroom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/04Special_Birds.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/04Special_Birds.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/05Case_Bathroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/05Case_Bathroom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/06Case_Space.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/06Case_Space.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/07Special_Birds.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/07Special_Birds.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/08Case_Attic.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Cases/08Case_Attic.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/CollectionScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/CollectionScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/EndlessCase.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/EndlessCase.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/EndlessLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/EndlessLevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Store.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/Store.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scene/TitleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scene/TitleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/EndlessLevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/EndlessLevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/EndlessLevelManager_.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/EndlessLevelManager_.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/ObjectHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/ObjectHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Menu/Energy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Menu/Energy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UI/EndlessUiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UI/EndlessUiManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UI/SettingMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UI/SettingMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UI/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UI/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UI/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
@@ -318,16 +100,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/HiddenObject/Scripts/Menu/EndlessShowStar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/EndlessObjectHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HiddenObject/Scripts/PanZoomCam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HiddenObject/Scripts/EnergyCheat.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/LongPressButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Decoration/Throne/ThroneManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Decoration/Plant/PlantManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Decoration/Plant/PlantUpgrade.cs" />
-        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Decoration/Throne/ThroneUpgrade.cs" />
-        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Energy.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Decoration/FirePlace/FirePlace.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Decoration/FirePlace/FirePlaceDB.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Decoration/FirePlace/FirePlaceManager.cs" />
@@ -364,15 +141,21 @@
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Unlock/DttUnlock.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/EndlessObjectHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/EndlessLevelManager_.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Menu/EndlessShowStar.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Menu/EndlessLevelSelection.cs" />
-        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/EndlessLevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/ObjectHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/PanZoom.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/PanZoomCam.cs" />
         <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UI/SettingMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/EnergyCheat.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Cheat.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UI/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Menu/Energy.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UI/EndlessUiManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/UI/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/HiddenObject/Scripts/Level/EndlessLevelManager_.cs" />
       </list>
     </option>
   </component>
@@ -389,6 +172,14 @@
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../FindNally_Game/PC_Build\FINDNALLY.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Desktop\University_2022\GameDesign_GI344\FindNally_Game\PC_Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -486,6 +277,12 @@
       <workItem from="1637231420110" duration="7355000" />
       <workItem from="1637342496505" duration="2562000" />
       <workItem from="1637353544900" duration="15000" />
+      <workItem from="1637602966262" duration="715000" />
+      <workItem from="1637690265649" duration="1020000" />
+      <workItem from="1637761905022" duration="873000" />
+      <workItem from="1637771859662" duration="2947000" />
+      <workItem from="1637791007224" duration="5097000" />
+      <workItem from="1637820163084" duration="7852000" />
     </task>
     <servers />
   </component>
